@@ -1,0 +1,26 @@
+{
+  "name": "cheap-tickets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./out/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mephisto83/cheap-tickets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mephisto83/cheap-tickets/issues"
+  },
+  "homepage": "https://github.com/mephisto83/cheap-tickets#readme",
+  "dependencies": {
+    "puppeteer": "^1.15.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.12.3"
+  }
+}
